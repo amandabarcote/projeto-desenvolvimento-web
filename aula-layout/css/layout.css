@@ -1,0 +1,76 @@
+body{ /* estilização de todo o site */
+    font-family:Arial, Helvetica, sans-serif;
+    width: 90%; /* total de ocupação da janela do site*/
+    margin: 0 auto; /* distribuição proporcional do conteudo dentro dos 90%*/
+    background: linear-gradient(to right, #99784b, #bb9d73); /*degrade*/
+}
+
+header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1b1b1b;
+    border-radius: 5px; /*arredonda os cantos*/
+    margin-top: 10px;
+}
+
+.logo img{ /*estilizando a imagem da logo*/
+width: 40%; /*define o tamanho da imagem em relação do aumento o diminuição do navegador*/
+padding-top: 10px;
+}
+
+.navegacao a{
+color: rgb(173,173,173);
+text-decoration: none; /*elimina o sublinhado*/
+float: right; /*disposição dos hiperlinks*/
+padding: 10px;
+}
+
+.navegacao{
+    overflow: hidden; /**/
+}
+
+.navegacao a:hover{
+color: #e32936;
+}
+
+.principal{
+    display: flex; /*organiza a diusposição do coonteudo*/
+    flex-direction: row; 
+}
+
+.conteudo{
+    background-color: gainsboro;
+    text-align: justify;
+    padding: 15px;
+    margin: 15px 10px 25px 10px;
+    float: left;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #6b5134e7;
+    color: #08101a98;
+
+}
+
+.rodape{
+    color: rgb(39, 39, 39);
+    font-size: 10px;
+    text-align: center;
+
+}
+
+@media screen and (max-width:600px) { /*responsividade, alteração do layout de acordo com o tamano da tela*/
+    body, .principal, .conteudo{ /*definir os escorpos a serem alterados*/
+        width: 100%;
+        flex-direction:column;
+        padding: 0px;
+
+    }
+}
+
+::selection {
+    background-color: rgb(204, 174, 118);
+    color: rgb(145, 102, 61);
+}
+
+::-moz-selection {
+    background-color: rgb(204, 181, 118);
+    color: rgb(145, 106, 61);
+}
