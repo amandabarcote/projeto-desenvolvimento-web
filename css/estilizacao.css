@@ -1,0 +1,256 @@
+
+body {
+    background-color: #ffffff;
+    font-family:sans-serif;
+    text-align: center;
+}
+
+h3{
+    color: rgb(179, 149, 112);
+}
+
+.rodape{
+    color: rgb(132, 216, 111);
+    font-size: 15px;
+    text-align: center;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
+* {
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: .6s;
+  transition-duration: .6s;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
+}
+   
+.btnfos {
+    color: rgb(190, 169, 108);
+    cursor: pointer;
+    display:list-item;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 45px;
+    margin: 0 auto 2em;
+    position: center;
+    text-transform: uppercase;
+    width: 100%;
+    text-decoration: none;
+}
+
+.btnfos-2 {
+    letter-spacing: 1px;
+}
+  
+.btnfos-2:hover,
+.btnfos-2:active {
+    letter-spacing: 3px;
+}
+  
+.btnfos-2:after,
+.btnfos-2:before {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 1px solid rgba(255, 255, 255, 0);
+    bottom: 0px;
+    content: " ";
+    display: block;
+    margin: 0 auto;
+    position: center;
+    -webkit-transition: all 280ms ease-in-out;
+    transition: all 280ms ease-in-out;
+    width: 0;
+}
+  
+.btnfos-2:hover:after,
+.btnfos-2:hover:before {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-color: rgb(202, 191, 124);
+    -webkit-transition: width 350ms ease-in-out;
+    transition: width 350ms ease-in-out;
+    width: 30%;
+}
+
+.btnfos-3 {
+    letter-spacing: 1px;
+}
+  
+.btnfos-3:hover,
+.btnfos-3:active {
+    letter-spacing: 3px;
+}
+  
+.btnfos-3:after,
+.btnfos-3:before {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 1px solid rgba(255, 255, 255, 0);
+    bottom: 0px;
+    content: " ";
+    display: block;
+    margin: 0 auto;
+    position: center;
+    -webkit-transition: all 280ms ease-in-out;
+    transition: all 280ms ease-in-out;
+    width: 0;
+}
+  
+.btnfos-3:hover:after,
+.btnfos-3:hover:before {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-color: rgb(202, 191, 124);
+    -webkit-transition: width 350ms ease-in-out;
+    transition: width 350ms ease-in-out;
+    width: 23%;
+}
+
+.btnfos-4 {
+    letter-spacing: 1px;
+}
+  
+.btnfos-4:hover,
+.btnfos-4:active {
+    letter-spacing: 3px;
+}
+  
+.btnfos-4:after,
+.btnfos-4:before {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 1px solid rgba(255, 255, 255, 0);
+    bottom: 0px;
+    content: " ";
+    display: block;
+    margin: 0 auto;
+    position: center;
+    -webkit-transition: all 280ms ease-in-out;
+    transition: all 280ms ease-in-out;
+    width: 0;
+}
+  
+.btnfos-4:hover:after,
+.btnfos-4:hover:before {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-color: rgb(202, 191, 124);
+    -webkit-transition: width 350ms ease-in-out;
+    transition: width 350ms ease-in-out;
+    width: 18%;
+}
+
+.btnfos-5 {
+    letter-spacing: 1px;
+}
+  
+.btnfos-5:hover,
+.btnfos-5:active {
+    letter-spacing: 3px;
+}
+  
+.btnfos-5:after,
+.btnfos-5:before {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 1px solid rgba(255, 255, 255, 0);
+    bottom: 0px;
+    content: " ";
+    display: block;
+    margin: 0 auto;
+    position: center;
+    -webkit-transition: all 280ms ease-in-out;
+    transition: all 280ms ease-in-out;
+    width: 0;
+}
+  
+.btnfos-5:hover:after,
+.btnfos-5:hover:before {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-color: rgb(202, 191, 124);
+    -webkit-transition: width 350ms ease-in-out;
+    transition: width 350ms ease-in-out;
+    width: 26%;
+}
+
+.btnfos-6 {
+    letter-spacing: 1px;
+}
+  
+.btnfos-6:hover,
+.btnfos-6:active {
+    letter-spacing: 3px;
+}
+  
+.btnfos-6:after,
+.btnfos-6:before {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 1px solid rgba(255, 255, 255, 0);
+    bottom: 0px;
+    content: " ";
+    display: block;
+    margin: 0 auto;
+    position: center;
+    -webkit-transition: all 280ms ease-in-out;
+    transition: all 280ms ease-in-out;
+    width: 0;
+}
+  
+  .btnfos-6:hover:after,
+  .btnfos-6:hover:before {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-color: rgb(202, 191, 124);
+    -webkit-transition: width 350ms ease-in-out;
+    transition: width 350ms ease-in-out;
+    width: 38%;
+}
+
+.btnfos-7 {
+    letter-spacing: 1px;
+}
+  
+.btnfos-7:hover,
+.btnfos-7:active {
+    letter-spacing: 3px;
+}
+  
+.btnfos-7:after,
+.btnfos-7:before {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 1px solid rgba(255, 255, 255, 0);
+    bottom: 0px;
+    content: " ";
+    display: block;
+    margin: 0 auto;
+    position: center;
+    -webkit-transition: all 280ms ease-in-out;
+    transition: all 280ms ease-in-out;
+    width: 0;
+}
+  
+.btnfos-7:hover:after,
+.btnfos-7:hover:before {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-color: rgb(202, 191, 124);
+    -webkit-transition: width 350ms ease-in-out;
+    transition: width 350ms ease-in-out;
+    width: 45%;
+}
+
+::selection {
+    background-color: rgb(204, 181, 118);
+    color: rgb(145, 106, 61);
+}
+
+::-moz-selection {
+    background-color: rgb(204, 181, 118);
+    color: rgb(145, 106, 61);
+}
