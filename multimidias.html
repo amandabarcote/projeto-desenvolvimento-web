@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+
+    <title>Como anexar multimídias</title>
+
+    <link rel="stylesheet" type="text/css" href="css/estilizacao.css" media="screen">
+</head>
+
+<body>
+    <h2 style="color: rgb(151, 126, 94); text-align: center;">Tópicos</h2>
+
+    <dt>
+        <dd style="color:rgb(54, 54, 54);"></li><a href="#iframe" style="color:rgb(115, 197, 135); text-decoration: none; margin-left: 20%; margin-right: 23%;">Tag iframe</a></dd>
+        <dd style="color:rgb(54, 54, 54);"></li><a href="#audio" style="color:rgb(115, 197, 135); text-decoration: none; margin-left: 20%; margin-right: 23%;">Tag de áudio</a></dd>
+        <dd style="color:rgb(54, 54, 54);"></li><a href="#imagem" style="color:rgb(115, 197, 135); text-decoration: none; margin-left: 20%; margin-right: 23%;">Tag de imagem</a></dd>
+    </dt>
+    
+    <br>
+
+    <h3 id="iframe">Tag iframe</h3>
+
+    <p>A tag iframe serve para incorporar um documento multimídia, como áudios, vídeos, imagens, sites, etc. Exemplo:</p>
+    
+    <figcaption>
+        <img src="imagens/imagens-proprias/multimidias/sintaxe-iframe.jpeg" alt="Exemplo de iframe">
+    </figcaption>
+
+    <p>Site anexado com o iframe:</p>
+
+    <iframe src="https://ifpr.edu.br/irati" height="400" width="1337" title="Site IFPR Irati"></iframe>
+
+    <br><br>
+
+    <h3 id="audio">Tag de áudio</h3>
+
+    <p>É similar a Tag de vídeo mas destinada para áudios. Veja um exemplo abaixo:</p>
+
+    <audio preload="metadata" controls>
+        <source src="audios/HeySailor.mp3" type="audio/mp3">
+        <source src="audios/HeySailor.ogg" type="audio/ogg">
+    </audio>
+
+    <p>A tag &lt;audio&gt; permite a inclusão de arquivos sonoros em páginas web, utilizando o atributo preload para definir se os metadados, como a duração do áudio, devem ser carregados antecipadamente pelo navegador. Além disso, o atributo controls é fundamental para exibir a interface padrão de reprodução, que inclui botões de play, pause, volume e a barra de progresso, garantindo que o usuário possa interagir com o conteúdo de forma intuitiva<br>A tag &lt;source&gt;, quando utilizada dentro do elemento &lt;audio&gt;, possui a mesma funcionalidade que na tag &lt;video&gt;, servindo para especificar múltiplos arquivos de mídia em diferentes formatos, como MP3 ou OGG. Exemplo:</p>
+
+    <figure>
+        <img src="imagens/imagens-proprias/multimidias/audio.jpeg" alt="Tag de áudio">
+    </figure>
+
+    <figure>
+        <img src="imagens/imagens-proprias/multimidias/exemplo-audio.jpeg" alt="Exemplo de tag de áudio">
+    </figure>
+
+    <br>
+
+    <h3 id="imagem">Tag de imagem</h3>
+
+    <p>A tag &lt;picture&gt; é um elemento de imagem responsiva que permite oferecer diferentes versões de um arquivo gráfico com base em condições específicas, como a largura da tela ou a densidade de pixels. Ao utilizar tags &lt;source&gt; internas com o atributo media, o desenvolvedor pode definir pontos de interrupção para trocar automaticamente a imagem exibida, garantindo que o usuário visualize a versão mais adequada para o seu dispositivo, seja um smartphone ou um monitor de alta resolução. Veja um exemplo abaixo:</p>
+
+    <picture>
+        <source media="(max-width:500px)" srcset="Img/Imagens-nao-Proprias/Multimidias/bike_110.jpg">
+        <source media="(max-width:700px)" srcset="Img/Imagens-nao-Proprias/Multimidias/bike_320.jpg">
+        <source media="(max-width:1000px)" srcset="Img/Imagens-nao-Proprias/Multimidias/bike_640.jpg">
+        <img src="imagens/imagens-nao-proprias/multimidias/bike-full.jpg" alt="Bike do professor">
+    </picture>
+
+    <p>O elemento &lt;picture&gt; funciona como um contêiner para as tags &lt;source&gt; e uma tag &lt;img&gt; obrigatória, que serve como fallback caso nenhuma das condições anteriores seja atendida ou o navegador não suporte o elemento. Cada tag &lt;source&gt; utiliza o atributo media para definir a regra de consulta (como a largura máxima da tela) e o atributo srcset para especificar o caminho da imagem correspondente, permitindo que o navegador selecione e renderize a fonte de mídia mais adequada conforme o cenário satisfaça a condição estabelecida. Exemplo:</p>
+    
+    <figure>
+        <img src="imagens/imagens-proprias/multimidias/picture.jpeg" alt="tag picture">
+    </figure>
+    
+    <figure>
+        <img src="imagens/imagens-proprias/multimidias/exemplo-picture.jpeg" alt="tag picture">
+    </figure>
+
+    <br>
+
+    <footer>
+        <div class="rodape">
+          <p>© Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

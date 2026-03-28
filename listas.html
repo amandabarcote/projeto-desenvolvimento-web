@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+
+    <title>Como criar listas</title>
+
+    <link rel="stylesheet" type="text/css" href="css/estilizacao.css" media="screen">
+</head>
+
+<body>
+    <h2 style="color: rgb(151, 126, 94); text-align: center;">Tópicos</h2>
+
+    <dt class="listas">
+        <dd><a href="#lista" style="color:rgb(115, 197, 135); text-decoration: none; margin-left: 20%; margin-right: 23%;">Lista</a></dd>
+        <dd><a href="#lista-nao-ordenada" style="color:rgb(115, 197, 135); text-decoration: none; margin-left: 20%; margin-right: 23%;">Lista não ordenada</a></dd>
+        <dd><a href="#lista-ordenada" style="color:rgb(115, 197, 135); text-decoration: none; margin-left: 20%; margin-right: 23%;">Lista ordenada</a></dd>
+        <dd><a href="#lista-detalhada" style="color:rgb(115, 197, 135); text-decoration: none; margin-left: 20%; margin-right: 23%;">Lista detalhada</a></dd>
+    </dt>
+    
+    <br>
+
+    <h3 id="lista" style="text-align: center;">Lista</h3>
+
+    <ol>
+        <p>Existem três tipos de listas no HTML: não ordenadas, ordenadas e de definição (ou descrição). Elas servem para criar tópicos, numerá-los ou organizar informações de forma estruturada.</p>
+    </ol>
+    
+    <br>
+
+    <h3 id="lista-nao-ordenada">Lista não ordenada</h3>
+
+    <ol>
+        <img src="imagens/slides-professor/listas/lista-nao-ordenada.jpeg" alt="Lista não ordenada" height="35%" width="35%" style="text-align: center;">
+        
+        <p>A lista não ordenada não possibilita trocar de marcador. Exemplo:</p>
+        
+        <ul style="text-align: center; width: 12%; height: 100%; margin-left: 41%;">
+            <li style="margin-left: 20%; margin-right: 22%;">Exemplo 1</li>
+            <li style="margin-left: 20%; margin-right: 22%;">Exemplo 2</li>
+            <li style="margin-left: 20%; margin-right: 22%;">Exemplo 3</li>
+        </ul>
+    </ol>
+    
+    <br>
+
+    <h3 id="lista-ordenada">Lista ordenada</h3>
+
+    <img src="imagens/imagens-proprias/listas/ordenada.jpeg" alt="Exemplo de lista ordenada" style="text-align: center;">
+    
+    <ol>
+        <p>A lista ordenada (<code>&lt;ol&gt;</code>) possibilita trocar o tipo de marcador utilizando o atributo <code>type</code>, permitindo o uso de números, letras ou algarismos romanos. Exemplo:</p>
+        
+        <ol type="I" style="text-align: center; width: 12%; height: 100%; margin-left: 41%;">
+            <li style="margin-left: 20%; margin-right: 22%;">Exemplo 01</li>
+            <li style="margin-left: 20%; margin-right: 22%;">Exemplo 02</li>
+            <li style="margin-left: 20%; margin-right: 22%;">Exemplo 03</li>
+        </ol>
+    </ol>
+    
+    <br>
+
+    <h3 id="lista-detalhada">Lista detalhada</h3>
+
+    <img src="imagens/imagens-proprias/listas/detalhada.jpeg" alt="Exemplo de lista detalhada">
+
+    <ol>
+        <p>Com as listas de definição (ou de descrição), você pode apresentar um termo e, logo em seguida, detalhá-lo. Exemplo:</p>
+        
+        <dl>
+            <dt style="margin-left: 20%; margin-right: 22%;">Exemplo 01</dt>
+            <dd style="margin-left: 20%; margin-right: 22%;">Detalhamento 01</dd>
+            <dt style="margin-left: 20%; margin-right: 22%;">Exemplo 02</dt>
+            <dd style="margin-left: 20%; margin-right: 22%;">Detalhamento 02</dd>
+            <dt style="margin-left: 20%; margin-right: 22%;">Exemplo 03</dt>
+            <dd style="margin-left: 20%; margin-right: 22%;">Detalhamento 03</dd>
+        </dl>
+    </ol>
+    
+    <br>
+
+    <footer>
+        <div class="rodape">
+          <p>© Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

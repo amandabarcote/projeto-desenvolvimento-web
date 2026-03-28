@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+
+    <title>Como usar tags</title>
+
+    <link rel="stylesheet" type="text/css" href="css/estilizacao.css" media="screen">
+
+    <style>
+        th,
+        td {
+            border: 1px solid rgb(70, 70, 70);
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        table {
+            border: 1px solid rgb(53, 53, 53);
+        }
+
+        table.Table1 {
+            border: 1px solid rgb(68, 68, 68);
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        table.Table2 {
+            background-color: rgb(156, 156, 156);
+            border: 1px solid rgb(46, 46, 46);
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h2 style="color: rgb(151, 126, 94); text-align: center;">Tópicos</h2>
+
+    <dt>
+        <dd style="color:rgb(54, 54, 54);"><a href="#table" style="color:rgb(115, 197, 135); text-decoration: none; margin-left: 20%; margin-right: 23%;">&lt;Table&gt;</a></dd>
+        <dd style="color:rgb(54, 54, 54);"><a href="#del" style="color:rgb(115, 197, 135); text-decoration: none; margin-left: 20%; margin-right: 23%;">&lt;Del&gt;</a></dd>
+        <dd style="color:rgb(54, 54, 54);"><a href="#ins" style="color:rgb(115, 197, 135); text-decoration: none; margin-left: 20%; margin-right: 23%;">&lt;Ins&gt;</a></dd>
+        <dd style="color:rgb(54, 54, 54);"><a href="#sub" style="color:rgb(115, 197, 135); text-decoration: none; margin-left: 20%; margin-right: 23%;">&lt;Sub&gt;</a></dd>
+        <dd style="color:rgb(54, 54, 54);"><a href="#sup" style="color:rgb(115, 197, 135); text-decoration: none; margin-left: 20%; margin-right: 23%;">&lt;Sup&gt;</a></dd>
+        <dd style="color:rgb(54, 54, 54);"><a href="#blockquote" style="color:rgb(115, 197, 135); text-decoration: none; margin-left: 20%; margin-right: 23%;">&lt;Blockquote&gt;</a></dd>
+        <dd style="color:rgb(54, 54, 54);"><a href="#q" style="color:rgb(115, 197, 135); text-decoration: none; margin-left: 20%; margin-right: 23%;">&lt;Q&gt;</a></dd>
+        <dd style="color:rgb(54, 54, 54);"><a href="#abbr" style="color:rgb(115, 197, 135); text-decoration: none; margin-left: 20%; margin-right: 23%;">&lt;Abbr&gt;</a></dd>
+        <dd style="color:rgb(54, 54, 54);"><a href="#address" style="color:rgb(115, 197, 135); text-decoration: none; margin-left: 20%; margin-right: 23%;">&lt;Address&gt;</a></dd>
+        <dd style="color:rgb(54, 54, 54);"><a href="#cite" style="color:rgb(115, 197, 135); text-decoration: none; margin-left: 20%; margin-right: 23%;">&lt;Cite&gt;</a></dd>
+        <dd style="color:rgb(54, 54, 54);"><a href="#bdo" style="color:rgb(115, 197, 135); text-decoration: none; margin-left: 20%; margin-right: 23%;">&lt;Bdo&gt;</a></dd>
+        <dd style="color:rgb(54, 54, 54);"><a href="#code" style="color:rgb(115, 197, 135); text-decoration: none; margin-left: 20%; margin-right: 23%;">&lt;Code&gt;</a></dd>
+        <dd style="color:rgb(54, 54, 54);"><a href="#pre" style="color:rgb(115, 197, 135); text-decoration: none; margin-left: 20%; margin-right: 23%;">&lt;Pre&gt;</a></dd>
+        <dd style="color:rgb(54, 54, 54);"><a href="#kbd" style="color:rgb(115, 197, 135); text-decoration: none; margin-left: 20%; margin-right: 23%;">&lt;Kbd&gt;</a></dd>
+    </dt>
+
+    <br>
+    
+    <h3>Table</h3>
+
+    <p>A tabela em HTML é estruturada pela tag &lt;table&gt;, que delimita seu início e fim, sendo composta pelos elementos &lt;tr&gt;, &lt;th&gt; e &lt;td&gt;. A tag &lt;tr&gt; define uma linha da tabela, a qual pode conter várias colunas; a tag &lt;th&gt; define as células de cabeçalho (títulos das colunas ou linhas) e a tag &lt;td&gt; armazena o conteúdo das células de dados. Além disso, existem a tag &lt;caption&gt;, que define um título descritivo para a tabela, e o atributo colspan, que determina quantas colunas uma informação ocupará horizontalmente na estrutura.<a href="imagens/imagens-proprias/tags-adicionais/table.jpeg" target="_blank" style="color:rgb(115, 197, 135); text-decoration: none;"><br>Clique para ver o código</a></p>
+
+    <!--cellspacing é o espaço entre as celulas da tabela-->
+    <!--cellpadding é o espaço entre o texto e a borda da tabela-->
+    <!--colspan é a quantidades de espaços usados na horizontal-->
+    <!--rowspan é a quantidades de espaços usados na vertical-->
+
+    <table class="table1" cellpadding="5">
+        <caption>Exemplo:</caption>
+        <tr>
+            <th>X</th>
+            <th>X</th>
+            <th>X <code><--></code> X</th>
+        </tr>
+        <tr>
+            <td>X</td>
+            <td>X</td>
+            <td>X</td>
+        </tr>
+        <tr>
+            <td>X</td>
+            <td>X</td>
+            <td>X</td>
+        </tr>
+        <tr>
+            <td>X</td>
+            <td>X</td>
+            <td>X</td>
+        </tr>
+    </table>
+    
+    <br>
+
+    <table class="table2" cellspacing="2" cellpadding="5">
+        <tr>
+            <th colspan="3">XXXX</th>
+        </tr>
+        <tr>
+            <td>XXXXX</td>
+            <td>XXXXX</td>
+            <td>XXXXX</td>
+        </tr>
+    </table>
+    
+    <br>
+
+    <h3 id="del" style="color: rgb(179, 149, 112);">Del</a></h3>
+
+    <p>A tag &lt;del&gt; é utilizada para marcar um texto que foi removido de um documento, resultando visualmente em um efeito de riscado sobre a palavra ou frase. Exemplo: <del>Tag del serve para riscar o texto.</del><a href="imagens/imagens-proprias/tags-adicionais/del.jpeg" target="_blank" style="color:rgb(115, 197, 135); text-decoration: none;"><br>Clique para ver o código</a></p>
+    
+    <br>
+
+    <h3 id="ins" color: rgb(179, 149, 112);>Ins</h3>
+
+    <p>A tag &lt;ins&gt; é utilizada para representar um conteúdo que foi inserido em um documento, sendo visualmente identificada pelo sublinhado padrão nos navegadores. Exemplo: <ins>Tag ins serve para sublinhar o texto.</ins><a href="imagens/imagens-proprias/tags-adicionais/ins.jpeg" target="_blank" style="color:rgb(115, 197, 135); text-decoration: none;"><br>Clique para ver o código</a></p>
+    
+    <br>
+
+    <h3 id="sub" color: rgb(179, 149, 112);>Sub</a></h3>
+
+    <p>A tag &lt;sub&gt; é utilizada para configurar um texto como subscrito, renderizando-o com um tamanho de fonte reduzido e posicionado abaixo da linha de base convencional. Exemplo: x<sub>1</sub> e x<sub>2</sub> são as raízes possíveis numa equação do 2º grau. (o 1 e 2 estão nas tags sub). <a href="imagens/imagens-proprias/tags-adicionais/sub.jpeg" target="_blank" style="color:rgb(115, 197, 135); text-decoration: none;"><br>Clique para ver o código</a></p>
+    
+    <br>
+
+    <h3 id="sup" color: rgb(179, 149, 112);>Sup</a></h3>
+
+    <p>A tag &lt;sup&gt; é utilizada para definir um texto sobrescrito, o que faz com que o conteúdo seja exibido com uma fonte menor e posicionado acima da linha de base do texto principal. Exemplo:<sup>2</sup>+b<sup>2</sup>=c<sup>2</sup>.<a href="imagens/imagens-proprias/tags-adicionais/sup.jpeg" target="_blank" style="color:rgb(115, 197, 135); text-decoration: none;"><br>Clique para ver o código</a></p>
+    
+    <br>
+
+    <h3 id="blockquote" color: rgb(179, 149, 112);>Blockquote</a></h3>
+
+    <p>A tag &lt;blockquote&gt; é utilizada para definir seções que contêm citações longas provenientes de outra fonte, sendo semanticamente ideal para referenciar conteúdos externos ou trechos extensos de obras. <a href="imagens/imagens-proprias/tags-adicionais/blockquote.jpeg" target="_blank" style="color:rgb(115, 197, 135); text-decoration: none;"><br>Clique para ver o código</a></p>
+
+    <br>
+
+    <h3 id="q" color: rgb(179, 149, 112);>Q</h3>
+
+    <p>A tag &lt;q&gt; serve para uma citação curta. Exemplo: O GitHub diz que eles são <q>a maior e mais avançada plataforma de desenvolvimento do mundo.</q><a href="imagens/imagens-proprias/tags-adicionais/q.jpeg" target="_blank" style="color:rgb(115, 197, 135); text-decoration: none;"><br>Clique para ver o código</a></p>
+    
+    <br>
+
+    <h3 id="abbr" color: rgb(179, 149, 112);>Abbr</a></h3>
+
+    <p>A tag &lt;abbr&gt; é uma tag de abreviação. Exemplo: <abbr title="Hyper Text Markup Language">HTML</abbr>,<a href="imagens/imagens-proprias/tags-adicionais/abbr.jpeg" target="_blank" style="color:rgb(115, 197, 135); text-decoration: none;"><br>Clique para ver o código</a></p>
+    
+    <br>
+
+    <h3 id="address" color: rgb(179, 149, 112);>Address</a></h3>
+
+    <p>A tag &lt;address&gt; é utilizada para fornecer informações de contato do autor ou do proprietário de um documento ou artigo, podendo incluir dados como endereços de e-mail, URLs, endereços físicos, números de telefone ou links para redes sociais.</p> 
+    
+    <address>Site feito por <a href="mailto:amanda.obarcote@gmail.com" target="_blank" style="color:rgb(115, 197, 135); text-decoration: none;">Amanda Barcóte.</a><br></address>
+    
+    <br>
+
+    <h3 id="cite" color: rgb(179, 149, 112);>Cite</a></h3>
+
+    <p>A tag &lt;cite&gt; é para citar o título de uma obra, como filmes, músicas, pinturas, livros, etc. O nome de uma pessoa não se enquadra no cite. Exemplo: O livro <cite>orgulho e preconceito</cite> é bem melhor que o filme.</p>
+    
+    <br>
+
+    <h3 id="bdo" color: rgb(179, 149, 112);>Bdo</a></h3>
+
+    <p>A tag &lt;bdo&gt; inverte o sentido do texto, podendo ser da direita para a esquerda (<b>rtl</b>) ou da esquerda para a direita (<b>ltr</b>). Exemplo de rtl <bdo dir="rtl">"texto teste"</bdo>. Exemplo de ltr <bdo dir="ltr">"texto teste"</bdo>. <a href="imagens/imagens-proprias/tags-adicionais/bdo.jpeg" target="_blank" style="color:rgb(115, 197, 135); text-decoration: none;"><br>Clique para ver o código</a></p>
+    
+    <br>
+
+    <h3 id="code" color: rgb(179, 149, 112);>Code</a></h3>
+
+    <p>A tag &lt;code&gt; é utilizada para representar fragmentos de código de computador, exibindo o conteúdo em uma fonte monoespaçada (onde todas as letras possuem a mesma largura) para facilitar a leitura técnica. Exemplo: <code>Strong</code>. <a href="imagens/imagens-proprias/tags-adicionais/code.jpeg" target="_blank" style="color:rgb(115, 197, 135); text-decoration: none;"><br>Clique para ver o código</a></p>
+    
+    <br>
+
+    <h3 id="pre" color: rgb(179, 149, 112);>Pre</a></h3>
+
+    <p>A tag &lt;pre&gt; é utilizada para exibir texto pré-formatado, fazendo com que o navegador renderize o conteúdo exatamente como ele foi escrito no código-fonte, preservando espaços em branco e quebras de linha automáticas. Exemplo:</p>
+    
+    <pre>Teste do pre, quebra de linha sem <code><</code><code>br></code><br></pre>
+    
+    <a href="imagens/imagens-proprias/tags-adicionais/pre.jpeg" target="_blank" style="color:rgb(115, 197, 135); text-decoration: none;">Clique para ver o código</a></p>
+    
+    <br>
+
+    <h3 id="kbd" color: rgb(179, 149, 112);>Kbd</a></h3>
+
+    <p>A tag &lt;kbd&gt; é utilizada para indicar uma entrada de dispositivo, sendo comumente aplicada para representar teclas do teclado ou comandos de voz. Exemplo: a tecla <kbd>F5</kbd> recarrega uma página da web. <a href="imagens/imagens-proprias/tags-adicionais/kbd.jpeg" target="_blank" style="color:rgb(115, 197, 135); text-decoration: none;"><br>Clique para ver o código</a></p>
+    
+    <br>
+
+    <footer>
+        <div class="rodape">
+            <p>© Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

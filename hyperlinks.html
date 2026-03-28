@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+
+    <title>Como usar hyperlinks</title>
+
+    <link rel="stylesheet" type="text/css" href="css/estilizacao.css" media="screen">
+</head>
+
+<body>
+    <h2 style="color: rgb(151, 126, 94); text-align: center;">Tópicos</h2>
+    
+    <dt type="1">
+        <dd><a style="margin-left: 20%; margin-right: 22%; color:rgb(204, 178, 121);"><b>Hyperlinks ou links:</b></a></li>
+        <dd><a href="#marcacao-link" style="color:rgb(115, 197, 135); text-decoration: none; margin-left: 20%; margin-right: 22%;">Marcação de link</a></dd>  
+        <dd><a href="#link-externo-ou-remoto" style="color:rgb(115, 197, 135); text-decoration: none; margin-left: 20%; margin-right: 22%;">Link externo ou remoto</a></dd>
+        <dd><a href="#link-incremento" style="color:rgb(115, 197, 135); text-decoration: none; margin-left: 20%; margin-right: 22%;">Incrementos no link</a></dd>
+        <dd><a href="#link-interno" style="color:rgb(115, 197, 135); text-decoration: none; margin-left: 20%; margin-right: 22%;">Link interno</a></dd>
+        <dd><a href="#link-local" style="color:rgb(115, 197, 135); text-decoration: none; margin-left: 20%; margin-right: 22%;">Link local</a></dd>
+        <dd><a href="#link-imagem" style="color:rgb(115, 197, 135); text-decoration: none; margin-left: 20%; margin-right: 22%;">Link em imagem</a></dd>
+        <dd><a href="#link-download" style="color:rgb(115, 197, 135); text-decoration: none; margin-left: 20%; margin-right: 22%;">Link para download</a></dd>
+        <dd><a href="#link-email" style="color:rgb(115, 197, 135); text-decoration: none; margin-left: 20%; margin-right: 22%;">Link para email</a></dd>
+    </dt>
+
+    <br>
+
+    <figure>
+        <img src="imagens/slides-professor/hyperlinks/l.jpeg" alt="Slide com explicação">
+    </figure>
+    
+    <br>
+
+    <h3 id="marcacao-link">Marcação de link</h3>
+
+    <figure>
+        <img src="imagens/slides-professor/hyperlinks/marcacao.jpeg" alt="Slide com explicação">       
+        <figcaption>A tag <code>&lt;a&gt;</code> (âncora) é utilizada para criar links. O destino é definido pelo atributo <code>href</code>.</figcaption>
+    </figure>
+    
+    <br>
+
+    <h3 id="link-externo-ou-remoto">Link externo ou remoto</h3>
+    
+    <figure>
+        <img src="imagens/slides-professor/hyperlinks/l-externo-ou-remoto.jpeg" alt="Slide com explicação">
+    </figure>
+
+    <br>
+
+    <h3 id="link-incremento">Incrementos no link</h3>
+
+    <p>Os incrementos, ou atributos adicionais, são comandos que trazem melhor usabilidade e funcionalidade aos links (<code>&lt;a&gt;</code>). Exemplo:</p>
+    
+    <figure>
+        <img src="imagens/imagens-proprias/hyperlinks/incrementos.jpeg" alt="Imagem com exemplos de incrementos ao link">
+    </figure>
+    
+    <p>O atributo <code>target="_blank"</code> serve para abrir a URL em uma nova guia quando o link é selecionado, enquanto o <code>target="_self"</code> (que é o padrão) serve para abrir o link na mesma guia em que o usuário já está.</p>
+    
+    <p>O atributo <code>download</code> é utilizado para definir o nome do arquivo que será salvo no computador do usuário; esse nome será aplicado automaticamente assim que o download for iniciado.</p>
+    
+    <br>
+
+    <h3 id="link-interno">Link Interno</h3>
+
+    <figure>
+        <img src="imagens/slides-professor/hyperlinks/l-interno.jpeg" alt="Slide com explicação">
+    </figure>
+
+    <ul>
+        <p style="color:rgb(204, 178, 121);"><strong>Existem dois tipos principais de links internos:</strong></p>
+        
+        <br>
+        
+        <li style="text-align: center; width: 26%; height: 90%; margin-left: 36%;">Um dos métodos é por meio de um link com âncora, que utiliza o atributo <code>id</code> em um elemento de destino e o símbolo <code>#</code> no atributo <code>href</code> do link para navegar até ele.</li>
+        
+        <figure>
+            <img src="imagens/imagens-proprias/hyperlinks/interno-a.jpeg" alt="Exemplo de link interno">
+        </figure>
+        
+        <br>
+        
+        <li style="text-align: center; width: 14%; height: 90%; margin-left: 42%;">O segundo método para criar um link interno é através do atributo <code>id</code>, que funciona como um identificador único para um elemento, permitindo que o navegador role a página diretamente até ele.</li>
+        
+        <figure>
+            <img src="imagens/imagens-proprias/hyperlinks/interno-id.jpeg" alt="Exemplo de link interno">
+        </figure>
+    </ul>
+    
+    <br>
+
+    <h3 id="link-local">Link Local</h3>
+
+    <figure>
+        <img src="imagens/slides-professor/hyperlinks/l-local.jpeg" alt="Slide com explicação">
+        <figcaption>É utilizado para fazer web sites com várias páginas.</figcaption>
+    </figure>
+    
+    <br>
+
+    <h3 id="link-imagem">Link em imagem</h3>
+
+    <figure>
+        <a href="imagens/slides-professor/hyperlinks/img-full.jpeg" target="_blank"><img src="imagens/slides-professor/hyperlinks/img.jpeg" alt="Slide com explicação"></a>
+        <figcaption>Pode ser usado para realizar uma ação ao clicar na imagem, como expandi-la ou fazer o download.<br>Exemplo: clique na imagem acima.</figcaption>
+    </figure>
+
+    <h3 id="Link-download">Link para download</h3>
+
+    <figure>
+        <img src="imagens/slides-professor/hyperlinks/download.jpeg" alt="Slide com explicação">
+    </figure>
+    
+    <h3 id="Link-email">Link para endereço eletrônico</h3>
+    
+    <figure>
+        <img src="imagens/slides-professor/hyperlinks/email.jpeg" alt="Slide com explicação">
+        <figcaption>Exemplo: <a href="mailto:amanda.obarcote@gmail.com" style="color:rgb(204, 178, 121); text-decoration: none;">Clique para me enviar um e-mail</a>.</figcaption>
+    </figure>
+
+    <br>
+
+    <footer>
+        <div class="rodape">
+          <p>© Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
