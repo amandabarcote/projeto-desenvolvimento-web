@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores personalizados</title>
+
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+
+    <link rel="stylesheet" href="css/seletores.css">
+</head>
+
+<body>
+    <div class="agrupamento">
+        <h2>Agrupamento de elementos</h2>
+        <p>Os elementos &lt;div&gt; e &lt;span&gt; são contêineres genéricos utilizados para agrupar e estruturar partes de um documento, sendo frequentemente associados aos atributos class e id para fins de estilização e manipulação via script. A &lt;div&gt; é um elemento de nível de bloco (block-level), que inicia uma nova linha e ocupa toda a largura disponível, ideal para organizar grandes seções de layout. Por outro lado, o &lt;span&gt; é um elemento em linha (inline), aplicado para envolver pequenas porções de texto ou elementos dentro de um parágrafo sem interromper o fluxo do conteúdo.</p>
+    </div>
+
+    <div class="agrupamento">
+        <h2>Elementos Block-level</h2>
+        <p>O elemento &lt;div&gt; é classificado como um elemento de nível de bloco (block-level), funcionando como um contêiner genérico para agrupar outros elementos HTML e estruturar seções do documento. Por padrão, ele sempre inicia em uma nova linha e expande sua largura para ocupar todo o espaço horizontal disponível do seu elemento pai, sendo essencial para a criação de layouts e a aplicação de estilos específicos a blocos de conteúdo distintos.</p>
+    </div>
+
+    <p style="color:rgb(204, 178, 121);"><b>Exemplo:</b></p>
+    
+    <div class="a">Bloco 1</div>
+    
+    <div class="b">Bloco 2</div>
+
+    <div class="agrupamento">
+        <h2>Elementos Inline</h2>
+        <p>O elemento &lt;span&gt; é classificado como um elemento em linha (inline), funcionando como um contêiner genérico e semântico neutro que permite marcar e isolar trechos específicos de conteúdo dentro de uma mesma linha ou parágrafo. Diferente dos elementos de bloco, o &lt;span&gt; não interrompe o fluxo do texto nem inicia uma nova linha, sendo amplamente utilizado em conjunto com o CSS para aplicar estilos personalizados, como cores ou fontes diferenciadas, a palavras ou frases isoladas no corpo de um documento HTML.</p>
+    </div>
+
+    <div class="agrupamento">
+        <h2>Seletores Personalizados</h2>
+        <p>Os seletores de classe e de ID possibilitam a personalização de elementos HTML específicos para fins de estilização via CSS, permitindo aplicar regras de design de forma direcionada. O seletor de classe, identificado pelo símbolo de ponto ".", é ideal para aplicar o mesmo estilo a múltiplos elementos em uma página, enquanto o seletor de ID, identificado pela cerquilha (#), deve ser único por documento, servindo para estilizar um elemento exclusivo e possuindo maior prioridade na cascata do CSS.</p>
+    </div>
+
+    <div class="agrupamento">
+        <h3>Seletor do tipo id</h3>
+        <p>O seletor de ID utiliza o atributo id de um elemento HTML para selecionar e aplicar estilos a um único elemento específico dentro da página, garantindo que cada identificador seja exclusivo no documento. No CSS, esse seletor é representado pelo caractere "#", possuindo uma especificidade maior do que os seletores de tag ou de classe, o que assegura que suas regras prevaleçam em casos de conflitos de estilização para aquele elemento determinado.</p>
+    </div>
+
+    <div class="agrupamento">
+        <h3>Seletor do tipo classe</h3>
+        <p>O seletor de classe é utilizado para selecionar e estilizar elementos HTML que possuem um atributo class específico, sendo representado no CSS pelo caractere de ponto ".". Diferente do ID, a classe permite que o mesmo identificador seja aplicado a múltiplos elementos dentro de uma única página, tornando-a a ferramenta ideal para criar padrões de design reutilizáveis e agrupar componentes que devem compartilhar as mesmas características visuais.</p>
+    </div>
+
+    <h3 style="color: rgb(179, 149, 112);">Pseudo-Classes</h3>
+
+    <p>As pseudoclasses são utilizadas para definir um estado especial de um elemento, sendo representadas pelo símbolo de dois pontos (:). Elas estão relacionadas a um elemento ou a uma classe, permitindo aplicar estilos em situações específicas, como quando o usuário passa o mouse sobre um item ou quando um link já foi visitado.</p>
+
+    <div class="agrupamento">
+        <h3>Pseudo-Elementos</h3>
+        <p>Os pseudoelementos são utilizados para estilizar partes específicas de um elemento, sendo representados pela sintaxe de dois pontos duplos (::). Eles permitem intervir em fragmentos determinados do conteúdo, como a primeira linha ou a primeira letra de um parágrafo, sem a necessidade de criar novas tags no HTML.</p>
+    </div>
+
+    <footer>
+        <div class="rodape">
+          <p>© Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

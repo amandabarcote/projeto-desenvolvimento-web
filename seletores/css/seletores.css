@@ -1,0 +1,39 @@
+div {
+    background-color: rgb(204, 181, 118);
+    font-family: monospace;
+    color: rgb(145, 106, 61);
+}
+
+.rodape {
+    color: rgb(127, 197, 121);
+    font-size: 15px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+.a, .b, .agrupamento {
+    background-color: rgb(204, 181, 118);
+    color: rgb(145, 106, 61);
+    border: 2px solid rgb(185, 157, 121);
+    margin: 20px;
+    padding: 10px;
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.a { width: 60px; height: 20px; }
+.b { width: 100px; height: 20px; }
+
+.agrupamento {
+    margin: 6px;
+    padding: 10px;
+}
+
+::selection {
+    background-color: rgb(204, 181, 118);
+    color: rgb(145, 106, 61);
+}
+::-moz-selection {
+    background-color: rgb(204, 181, 118);
+    color: rgb(145, 106, 61);
+}
