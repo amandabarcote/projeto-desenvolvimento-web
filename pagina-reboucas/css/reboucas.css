@@ -1,0 +1,81 @@
+header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #5bc56d;
+    margin: -8px;
+    text-align: right;
+}
+
+.logo img{ 
+    width: 20%;
+    padding-right: 1075px ;
+}
+
+main{
+    margin-top: 15px;
+    text-align: center;
+    padding: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#p{
+    background-color: #5bc56d;
+}
+
+.conteudo{
+    background-color: rgb(236, 236, 236);
+    text-align: justify;
+    padding: 15px;
+    margin: 15px 10px 25px 10px;
+    float:unset;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #9aa59c86;
+    color: #49494998;
+}
+
+.h{
+    background-color: rgb(243, 243, 243);
+    text-align:center;
+    padding: 15px;
+    margin: 15px 10px 25px 10px;
+    border-radius: 5px;
+    color: #54bb66;
+}
+
+.rodape{
+    color: rgb(127, 197, 121);
+    font-size: 12px;
+    text-align: center;
+}
+
+#hino{
+    display:flow-root
+}
+
+body{
+    background:#ffffff;
+}
+
+#video{
+    text-align: center;
+    width: 100%;
+}
+
+h1{
+    color: #ffffff;
+    background:#5fc771;
+    text-align: center;
+}
+
+.conteudo:hover{
+  background:rgb(241, 241, 241);
+}
+
+::selection {
+    color: #ffffff;
+    background:#5fc771;
+}
+
+::-moz-selection {
+    color: #ffffff;
+    background:#5fc771;
+}
