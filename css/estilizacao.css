@@ -246,7 +246,8 @@ h3{
 }
 
 ::selection {
-    color: rgb(50, 50, 50);
+    background-color: rgb(50, 50, 50);
+    color: rgb(230, 230, 230);
 }
 
 ::-moz-selection {
