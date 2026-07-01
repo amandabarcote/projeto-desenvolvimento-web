@@ -246,11 +246,11 @@ h3{
 }
 
 ::selection {
-    background-color: rgb(50, 50, 50);
-    color: rgb(230, 230, 230);
+    background-color: rgb(60, 60, 60);
+    color: rgb(220, 220, 220);
 }
 
 ::-moz-selection {
-    background-color: rgb(204, 181, 118);
-    color: rgb(145, 106, 61);
+    background-color: rgb(60, 60, 60);
+    color: rgb(220, 220, 220);
 }
